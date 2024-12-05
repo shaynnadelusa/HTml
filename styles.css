@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8b9d5;
+    color: #ab08ab; /* Default text color */
+    font-weight: bold;
+}
+
+.frontpage {
+    background-image: url('fuji.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; /* Add this line to make sure the body takes up the full height of the page */
+    margin: 0; /* Add this line to remove any margins */
+    padding: 0;
+}
+
+.frontpage h1 {
+    color: #eef537; 
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 7px rgb(7, 0, 0);
+}
+
+/* Centering the content */
+center {
+    margin: 20px 0;
+}
+
+/* Header Styles */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #540999;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    color:#fdfcfd;
+}
+
+/* Objective Section */
+h3 {
+    font-family: 'Arial', sans-serif;
+    color: #8c35d8;
+    border-bottom: 2px solid #1d97e8;
+    padding-bottom: 5px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px solid #1d97e8;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+td.title {
+    color: #f5f2f5; 
+    background-color: #bc98e2; 
+}
+
+th {
+    background-color: #bc98e2;
+    color: white;
+}
+
+/* Skills and Experience List Styles */
+ul {
+    list-style-type: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Image Styles */
+img {
+    width: 350px; /* Set the width */
+    height: 400px; /* Set the height */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(244, 242, 242);
+}
+
+/* Link Styles */
+a {
+    color: #e81da1;
+    font-weight: bold;
+    padding: 10px;  
+    border: 2px solid #f4f2f4; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #c782e5;
+    color: white;
+}
