@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e8b9d5;
-    color: #ab08ab; /* Default text color */
+    color: #ab08ab; 
     font-weight: bold;
 }
 
@@ -15,8 +15,8 @@ body {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    height: 100vh; /* Add this line to make sure the body takes up the full height of the page */
-    margin: 0; /* Add this line to remove any margins */
+    height: 100vh; 
+    margin: 0; 
     padding: 0;
 }
 
